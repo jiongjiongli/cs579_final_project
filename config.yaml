@@ -1,0 +1,286 @@
+history:
+  decennial:
+    geography_unit: "block"
+    categories:
+      - category_name: "Total Population"
+        items:
+          - description: "All"
+            variables:
+              - year: 2010
+                variable_name: "P008001"
+              - year: 2020
+                variable_name: "P1_001N"
+          - description: "One Race"
+            variables:
+              - year: 2010
+                variable_name: "P008002"
+              - year: 2020
+                variable_name: "P1_002N"
+          - description: "Two or More Races"
+            variables:
+              - year: 2010
+                variable_name: "P003008"
+              - year: 2020
+                variable_name: "P1_009N"
+      - category_name: "Total Population of One Race"
+        items:
+          - description: "White"
+            variables:
+              - year: 2010
+                variable_name: "P008003"
+              - year: 2020
+                variable_name: "P1_003N"
+          - description: "Black or African American"
+            variables:
+              - year: 2010
+                variable_name: "P008004"
+              - year: 2020
+                variable_name: "P1_004N"
+          - description: "American Indian and Alaska Native"
+            variables:
+              - year: 2010
+                variable_name: "P008005"
+              - year: 2020
+                variable_name: "P1_005N"
+          - description: "Asian"
+            variables:
+              - year: 2010
+                variable_name: "P008006"
+              - year: 2020
+                variable_name: "P1_006N"
+          - description: "Native Hawaiian and Other Pacific Islander"
+            variables:
+              - year: 2010
+                variable_name: "P008007"
+              - year: 2020
+                variable_name: "P1_007N"
+          - description: "Other Race"
+            variables:
+              - year: 2010
+                variable_name: "P008008"
+              - year: 2020
+                variable_name: "P1_008N"
+      - category_name: "Total Number of Housing Units"
+        items:
+          - description: "All"
+            variables:
+              - year: 2010
+                variable_name: "H003001"
+              - year: 2020
+                variable_name: "H1_001N"
+          - description: "Occupied"
+            variables:
+              - year: 2010
+                variable_name: "H003002"
+              - year: 2020
+                variable_name: "H1_002N"
+          - description: "Vacant"
+            variables:
+              - year: 2010
+                variable_name: "H003003"
+              - year: 2020
+                variable_name: "H1_003N"
+  acs:
+    geography_unit: "block group"
+    survey: "acs5"
+    start_year: 2015
+    end_year: 2023
+    categories:
+      - category_name: "Total Population"
+        items:
+          - description: "All"
+            variable_name: "B01003_001"
+          - description: "Race"
+            variable_name: "B02001_001"
+          - description: "One Race"
+            variable_name: "C02003_002"
+          - description: "Two or More Races"
+            variable_name: "C02003_009"
+      - category_name: "Total Population by Race"
+        items:
+          - description: "White"
+            variable_name: "B02001_002"
+          - description: "Black or African American"
+            variable_name: "B02001_003"
+          - description: "American Indian and Alaska Native"
+            variable_name: "B02001_004"
+          - description: "Asian"
+            variable_name: "B02001_005"
+          - description: "Native Hawaiian and Other Pacific Islander"
+            variable_name: "B02001_006"
+          - description: "Other race"
+            variable_name: "B02001_007"
+          - description: "Two or More Races"
+            variable_name: "B02001_008"
+      - category_name: "Total Population of One Race"
+        items:
+          - description: "White"
+            variable_name: "C02003_003"
+          - description: "Black or African American"
+            variable_name: "C02003_004"
+          - description: "American Indian and Alaska Native"
+            variable_name: "C02003_005"
+          - description: "Asian"
+            variable_name: "C02003_006"
+          - description: "Native Hawaiian and Other Pacific Islander"
+            variable_name: "C02003_007"
+          - description: "Other Race"
+            variable_name: "C02003_008"
+      - category_name: "Total Population by Sex"
+        items:
+          - description: "All"
+            variable_name: "B01001_001"
+          - description: "Male"
+            variable_name: "B01001_002"
+          - description: "Female"
+            variable_name: "B01001_026"
+      - category_name: "Total Population of Male by Age"
+        items:
+          - description: "Under 5 Years"
+            variable_name: "B01001_003"
+          - description: "5 to 9 Years"
+            variable_name: "B01001_004"
+          - description: "10 to 14 Years"
+            variable_name: "B01001_005"
+          - description: "15 to 17 Years"
+            variable_name: "B01001_006"
+          - description: "18 and 19 Years"
+            variable_name: "B01001_007"
+          - description: "20 Years"
+            variable_name: "B01001_008"
+          - description: "21 Years"
+            variable_name: "B01001_009"
+          - description: "22 to 24 Years"
+            variable_name: "B01001_010"
+          - description: "25 to 29 Years"
+            variable_name: "B01001_011"
+          - description: "30 to 34 Years"
+            variable_name: "B01001_012"
+          - description: "35 to 39 Years"
+            variable_name: "B01001_013"
+          - description: "40 to 44 Years"
+            variable_name: "B01001_014"
+          - description: "45 to 49 Years"
+            variable_name: "B01001_015"
+          - description: "50 to 54 Years"
+            variable_name: "B01001_016"
+          - description: "55 to 59 Years"
+            variable_name: "B01001_017"
+          - description: "60 and 61 Years"
+            variable_name: "B01001_018"
+          - description: "62 to 64 Years"
+            variable_name: "B01001_019"
+          - description: "65 and 66 Years"
+            variable_name: "B01001_020"
+          - description: "67 to 69 Years"
+            variable_name: "B01001_021"
+          - description: "70 to 74 Years"
+            variable_name: "B01001_022"
+          - description: "75 to 79 Years"
+            variable_name: "B01001_023"
+          - description: "80 to 84 Years"
+            variable_name: "B01001_024"
+          - description: "85 Years and Over"
+            variable_name: "B01001_025"
+      - category_name: "Total Population of Female by Age"
+        items:
+          - description: "Under 5 Years"
+            variable_name: "B01001_027"
+          - description: "5 to 9 Years"
+            variable_name: "B01001_028"
+          - description: "10 to 14 Years"
+            variable_name: "B01001_029"
+          - description: "15 to 17 Years"
+            variable_name: "B01001_030"
+          - description: "18 and 19 Years"
+            variable_name: "B01001_031"
+          - description: "20 Years"
+            variable_name: "B01001_032"
+          - description: "21 Years"
+            variable_name: "B01001_033"
+          - description: "22 to 24 Years"
+            variable_name: "B01001_034"
+          - description: "25 to 29 Years"
+            variable_name: "B01001_035"
+          - description: "30 to 34 Years"
+            variable_name: "B01001_036"
+          - description: "35 to 39 Years"
+            variable_name: "B01001_037"
+          - description: "40 to 44 Years"
+            variable_name: "B01001_038"
+          - description: "45 to 49 Years"
+            variable_name: "B01001_039"
+          - description: "50 to 54 Years"
+            variable_name: "B01001_040"
+          - description: "55 to 59 Years"
+            variable_name: "B01001_041"
+          - description: "60 and 61 Years"
+            variable_name: "B01001_042"
+          - description: "62 to 64 Years"
+            variable_name: "B01001_043"
+          - description: "65 and 66 Years"
+            variable_name: "B01001_044"
+          - description: "67 to 69 Years"
+            variable_name: "B01001_045"
+          - description: "70 to 74 Years"
+            variable_name: "B01001_046"
+          - description: "75 to 79 Years"
+            variable_name: "B01001_047"
+          - description: "80 to 84 Years"
+            variable_name: "B01001_048"
+          - description: "85 Years and Over"
+            variable_name: "B01001_049"
+      - category_name: "Total Housing Units"
+        items:
+          - description: "Occupied by Tenure"
+            variable_name: "B25003_001"
+          - description: "Occupied by Owner"
+            variable_name: "B25003_002"
+          - description: "Occupied by Renter"
+            variable_name: "B25003_003"
+      - category_name: "Total Housing Units by Race"
+        items:
+          - description: "White Alone Householder"
+            variable_name: "B25003A_001"
+          - description: "Black or African American Alone Householder"
+            variable_name: "B25003B_001"
+          - description: "American Indian and Alaska Native Alone Householder"
+            variable_name: "B25003C_001"
+          - description: "Asian Alone Householder"
+            variable_name: "B25003D_001"
+          - description: "Native Hawaiian and Other Pacific Islander Alone Householder"
+            variable_name: "B25003E_001"
+          - description: "Some Other Race Alone Householder"
+            variable_name: "B25003F_001"
+          - description: "Two or More Races Householder"
+            variable_name: "B25003G_001"
+      - category_name: "Total Median Household Income"
+        items:
+          - description: "By Race"
+            variable_name: "B19013_001"
+          - description: "By Household Size"
+            variable_name: "B19019_001"
+          - description: "By Age of Householder"
+            variable_name: "B19049_001"
+          - description: "By Receipt of Food Stamps / Snap"
+            variable_name: "B22008_001"
+          - description: "By Tenure"
+            variable_name: "B25119_001"
+      - category_name: "Median household income by Race"
+        items:
+          - description: "White Alone Householder"
+            variable_name: "B19013A_001"
+          - description: "Black or African American Alone Householder"
+            variable_name: "B19013B_001"
+          - description: "American Indian and Alaska Native Alone Householder"
+            variable_name: "B19013C_001"
+          - description: "Asian Alone Householder"
+            variable_name: "B19013D_001"
+          - description: "Native Hawaiian and Other Pacific Islander Alone Householder"
+            variable_name: "B19013E_001"
+          - description: "Some Other Race Alone Householder"
+            variable_name: "B19013F_001"
+          - description: "Two or More Races Householder"
+            variable_name: "B19013G_001"
+
+
